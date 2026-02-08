@@ -1,0 +1,46 @@
+<%@ page import="java.sql.*" %>
+<%!
+/**
+ * Centralized DB configuration for all JSP pages.
+ *
+ * Override defaults using environment variables:
+ * - DB_URL (e.g. jdbc:mysql://localhost:3306/project?useSSL=false&serverTimezone=UTC)
+ * - DB_USER
+ * - DB_PASSWORD
+ */
+public static class Db {
+  private static volatile boolean driverLoaded = false;
+
+  private static void ensureDriver() throws ClassNotFoundException {
+    if (!driverLoaded) {
+      synchronized (Db.class) {
+        if (!driverLoaded) {
+          Class.forName("com.mysql.cj.jdbc.Driver");
+          driverLoaded = true;
+        }
+      }
+    }
+  }
+
+  public static Connection getConnection() throws Exception {
+    ensureDriver();
+
+    String url = System.getenv("DB_URL");
+    if (url == null || url.trim().isEmpty()) {
+      url = "jdbc:mysql://localhost:3306/project";
+    }
+
+    String user = System.getenv("DB_USER");
+    if (user == null || user.trim().isEmpty()) {
+      user = "root";
+    }
+
+    String password = System.getenv("DB_PASSWORD");
+    if (password == null) {
+      password = "Mypasswordis2425";
+    }
+
+    return DriverManager.getConnection(url, user, password);
+  }
+}
+%>

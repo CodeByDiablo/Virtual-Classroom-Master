@@ -1,0 +1,108 @@
+04-Feb-2026 13:36:21.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+04-Feb-2026 13:36:21.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+04-Feb-2026 13:36:21.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+04-Feb-2026 13:36:21.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-Feb-2026 13:36:21.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Feb-2026 13:36:21.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Feb-2026 13:36:21.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25
+04-Feb-2026 13:36:21.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS-27
+04-Feb-2026 13:36:21.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Feb-2026 13:36:21.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115
+04-Feb-2026 13:36:21.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115
+04-Feb-2026 13:36:21.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Feb-2026 13:36:21.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\conf\logging.properties
+04-Feb-2026 13:36:21.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Feb-2026 13:36:21.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Feb-2026 13:36:21.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Feb-2026 13:36:21.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Feb-2026 13:36:21.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Feb-2026 13:36:21.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115
+04-Feb-2026 13:36:21.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115
+04-Feb-2026 13:36:21.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\temp
+04-Feb-2026 13:36:21.637 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-25\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Volta\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\HP\AppData\Local\Volta\bin;C:\Users\HP\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python314\;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Windsurf\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Local\Programs\cursor\resources\app\bin;.]
+04-Feb-2026 13:36:21.938 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Feb-2026 13:36:21.962 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [539] milliseconds
+04-Feb-2026 13:36:22.003 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Feb-2026 13:36:22.003 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+04-Feb-2026 13:36:22.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\docs]
+04-Feb-2026 13:36:22.738 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 13:36:22.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\docs] has finished in [778] ms
+04-Feb-2026 13:36:22.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\examples]
+04-Feb-2026 13:36:23.284 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 13:36:23.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\examples] has finished in [546] ms
+04-Feb-2026 13:36:23.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\host-manager]
+04-Feb-2026 13:36:23.580 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 13:36:23.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\host-manager] has finished in [249] ms
+04-Feb-2026 13:36:23.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\manager]
+04-Feb-2026 13:36:23.816 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 13:36:23.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\manager] has finished in [229] ms
+04-Feb-2026 13:36:23.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\ROOT]
+04-Feb-2026 13:36:24.042 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 13:36:24.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\ROOT] has finished in [225] ms
+04-Feb-2026 13:36:24.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\Virtual-Classroom-master]
+04-Feb-2026 13:36:24.278 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 13:36:24.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\Virtual-Classroom-master] has finished in [245] ms
+04-Feb-2026 13:36:24.300 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Feb-2026 13:36:24.361 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2396] milliseconds
+04-Feb-2026 14:45:53.393 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Users/HP/Downloads/Virtual-Classroom-master/.runtime/apache-tomcat-9.0.115/conf/tomcat-users.xml]
+04-Feb-2026 14:45:53.395 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+04-Feb-2026 14:45:53.897 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+04-Feb-2026 14:45:54.462 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+04-Feb-2026 14:45:55.025 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+04-Feb-2026 14:45:55.553 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Virtual-Classroom-master]
+04-Feb-2026 14:45:55.555 SEVERE [Catalina-utility-1] org.apache.catalina.session.StandardManager.stopInternal Exception unloading sessions to persistent storage
+	java.io.FileNotFoundException: C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\work\Catalina\localhost\Virtual-Classroom-master\SESSIONS.ser (The system cannot find the path specified)
+		at java.base/java.io.FileOutputStream.open0(Native Method)
+		at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+		at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+		at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:120)
+		at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:290)
+		at org.apache.catalina.session.StandardManager.unload(StandardManager.java:256)
+		at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:371)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4711)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1434)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1363)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:310)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1474)
+04-Feb-2026 14:45:56.088 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+04-Feb-2026 14:45:56.629 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+04-Feb-2026 14:46:26.701 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Users/HP/Downloads/Virtual-Classroom-master/.runtime/apache-tomcat-9.0.115/conf/tomcat-users.xml]
+04-Feb-2026 14:46:26.727 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\docs]
+04-Feb-2026 14:46:27.937 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 14:46:27.952 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\docs] has finished in [1,224] ms
+04-Feb-2026 14:46:27.953 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\examples]
+04-Feb-2026 14:46:30.443 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 14:46:30.660 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\examples] has finished in [2,707] ms
+04-Feb-2026 14:46:40.668 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\host-manager]
+04-Feb-2026 14:46:41.508 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 14:46:41.518 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\host-manager] has finished in [851] ms
+04-Feb-2026 14:46:41.519 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\manager]
+04-Feb-2026 14:46:42.250 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 14:46:42.259 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\manager] has finished in [740] ms
+04-Feb-2026 14:46:42.259 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\ROOT]
+04-Feb-2026 14:46:43.057 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 14:46:43.062 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\ROOT] has finished in [803] ms
+04-Feb-2026 14:46:43.063 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\Virtual-Classroom-master]
+04-Feb-2026 14:46:43.793 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Feb-2026 14:46:43.801 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Downloads\Virtual-Classroom-master\.runtime\apache-tomcat-9.0.115\webapps\Virtual-Classroom-master] has finished in [738] ms
