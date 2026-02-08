@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - DB_URL=jdbc:mysql://db:3306/project?allowPublicKeyRetrieval=true&useSSL=false
+      - DB_USER=root
+      - DB_PASSWORD=rootpassword
+    networks:
+      - app-network
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=project
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./project_DB.sql:/docker-entrypoint-initdb.d/project_DB.sql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  db_data:

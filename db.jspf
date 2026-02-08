@@ -3,10 +3,16 @@
 /**
  * Centralized DB configuration for all JSP pages.
  *
- * Override defaults using environment variables:
- * - DB_URL (e.g. jdbc:mysql://localhost:3306/project?useSSL=false&serverTimezone=UTC)
- * - DB_USER
- * - DB_PASSWORD
+ * <p><strong>Docker Deployment Configuration:</strong><br>
+ * When running in Docker (e.g., on Render), these values should be set as Environment Variables.
+ * This prevents hardcoding sensitive credentials.
+ * </p>
+ *
+ * <ul>
+ *   <li><code>DB_URL</code>: The full JDBC URL (e.g. <code>jdbc:mysql://mysql-host:3306/project</code>)</li>
+ *   <li><code>DB_USER</code>: Database username</li>
+ *   <li><code>DB_PASSWORD</code>: Database password</li>
+ * </ul>
  */
 public static class Db {
   private static volatile boolean driverLoaded = false;
